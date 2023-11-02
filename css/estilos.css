@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(
+    to right,
+    rgba(9, 9, 9, 0.595),
+    rgba(11, 85, 234, 0.61)
+  ), url("../img/fondo.jpg");
+    
+}
+
+header {
+    background: rgb(27, 32, 112);
+    width: 100%;
+    position: relative;
+}
+h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+ 
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul .a {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.titulo{
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    float: left;
+    width: 80px;
+    height: 70px;
+    border-radius: 50% ;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul .a:hover {
+    background: rgb(5, 10, 79);
+}
+
+
+.form-text{
+    color: #fff;
+    
+}
+
+.form-control{
+    border-bottom: 10px;
+}
+
+#registrar{
+    padding: 10px;
+    width: 200px;
+
+}
+
+#guardar{
+    padding: 10px;
+    width: 200px;
+
+}
+
+.img-fluid{
+    padding-top: 50px;
+    float: right;
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+}
